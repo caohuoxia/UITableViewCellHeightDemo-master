@@ -6,6 +6,7 @@ UITableView自动计算高度并缓存
 ***
 以上为网友分享！非常感谢！
 下面是我这边更新的一些知识点：
+
 1. 解决了uiimageview加载图片 使整个cell高度拉大的问题\
 content hugging 和 compressive resistance的优先级都设置成250，也就是低优先级\
 让imageview的高度 去适应右边文字内容高度来
