@@ -17,3 +17,7 @@ UITableView自动计算高度并缓存
 
 5. autolayout 方法动态计算cell高度（约束要保证从左到右从上到下确定约束的原则）
 
+6. 使用webview加载gif
+
+7. 自定义xib view需webview加载完再add。若在viewdidload里面，则会出现背景白屏几秒之后再到正常的问题
+
