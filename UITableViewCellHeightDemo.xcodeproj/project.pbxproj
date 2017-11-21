@@ -11,6 +11,9 @@
 		84AB6A0D1FBD6F0A004E8359 /* RedPacketCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AB6A0A1FBD6F0A004E8359 /* RedPacketCell.xib */; };
 		84AB6A0E1FBD6F0B004E8359 /* RedPacketCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB6A0B1FBD6F0A004E8359 /* RedPacketCell.m */; };
 		84AB6A101FBD70A0004E8359 /* HorizontalCoupleLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AB6A0F1FBD70A0004E8359 /* HorizontalCoupleLine.png */; };
+		84CD63191FC2D42C00669004 /* earth1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84CD63181FC2D42C00669004 /* earth1.gif */; };
+		84CD631E1FC2DB6C00669004 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD631D1FC2DB6C00669004 /* LoginView.m */; };
+		84CD63201FC2DB7C00669004 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84CD631F1FC2DB7C00669004 /* LoginView.xib */; };
 		99F12AEA1DA8E55D00E3A1AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F12AE91DA8E55D00E3A1AC /* main.m */; };
 		99F12AED1DA8E55D00E3A1AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F12AEC1DA8E55D00E3A1AC /* AppDelegate.m */; };
 		99F12AF31DA8E55D00E3A1AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99F12AF11DA8E55D00E3A1AC /* Main.storyboard */; };
@@ -31,6 +34,10 @@
 		84AB6A0B1FBD6F0A004E8359 /* RedPacketCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPacketCell.m; sourceTree = "<group>"; };
 		84AB6A0C1FBD6F0A004E8359 /* RedPacketCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPacketCell.h; sourceTree = "<group>"; };
 		84AB6A0F1FBD70A0004E8359 /* HorizontalCoupleLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HorizontalCoupleLine.png; sourceTree = "<group>"; };
+		84CD63181FC2D42C00669004 /* earth1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = earth1.gif; sourceTree = "<group>"; };
+		84CD631C1FC2DB6C00669004 /* LoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		84CD631D1FC2DB6C00669004 /* LoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		84CD631F1FC2DB7C00669004 /* LoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
 		99F12AE51DA8E55D00E3A1AC /* UITableViewCellHeightDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableViewCellHeightDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F12AE91DA8E55D00E3A1AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		99F12AEB1DA8E55D00E3A1AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +88,7 @@
 		99F12AE71DA8E55D00E3A1AC /* UITableViewCellHeightDemo */ = {
 			isa = PBXGroup;
 			children = (
+				84CD63181FC2D42C00669004 /* earth1.gif */,
 				84AB6A0F1FBD70A0004E8359 /* HorizontalCoupleLine.png */,
 				84AB6A0C1FBD6F0A004E8359 /* RedPacketCell.h */,
 				84AB6A0B1FBD6F0A004E8359 /* RedPacketCell.m */,
@@ -103,6 +111,9 @@
 				99F12AE81DA8E55D00E3A1AC /* Supporting Files */,
 				84A367661FBE87D0009988F8 /* TestThreadVCViewController.h */,
 				84A367671FBE87D0009988F8 /* TestThreadVCViewController.m */,
+				84CD631C1FC2DB6C00669004 /* LoginView.h */,
+				84CD631D1FC2DB6C00669004 /* LoginView.m */,
+				84CD631F1FC2DB7C00669004 /* LoginView.xib */,
 			);
 			path = UITableViewCellHeightDemo;
 			sourceTree = "<group>";
@@ -176,7 +187,9 @@
 			files = (
 				99F12AF81DA8E55D00E3A1AC /* LaunchScreen.storyboard in Resources */,
 				84AB6A0D1FBD6F0A004E8359 /* RedPacketCell.xib in Resources */,
+				84CD63201FC2DB7C00669004 /* LoginView.xib in Resources */,
 				99F12B071DA8EA1B00E3A1AC /* ListTableViewCell.xib in Resources */,
+				84CD63191FC2D42C00669004 /* earth1.gif in Resources */,
 				84AB6A101FBD70A0004E8359 /* HorizontalCoupleLine.png in Resources */,
 				99F12AF51DA8E55D00E3A1AC /* Assets.xcassets in Resources */,
 				99F12AF31DA8E55D00E3A1AC /* Main.storyboard in Resources */,
@@ -194,6 +207,7 @@
 				99F12B0A1DA8EA4000E3A1AC /* ListViewController.m in Sources */,
 				99F12B011DA8E60400E3A1AC /* BaseViewController.m in Sources */,
 				99F12AED1DA8E55D00E3A1AC /* AppDelegate.m in Sources */,
+				84CD631E1FC2DB6C00669004 /* LoginView.m in Sources */,
 				84AB6A0E1FBD6F0B004E8359 /* RedPacketCell.m in Sources */,
 				99F12B0F1DA8EB0E00E3A1AC /* ListModel.m in Sources */,
 				99F12AEA1DA8E55D00E3A1AC /* main.m in Sources */,
